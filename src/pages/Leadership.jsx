@@ -1,29 +1,53 @@
+import {
+  churchImg,
+  russImg,
+  randolphImg,
+  garyImg,
+  hunterImg,
+  nickImg,
+  brettImg,
+  jamieImg,
+  kimImg,
+  colinMarneshaImg,
+  jesusImg,
+  allenImg,
+  gavinImg,
+  lousinRoseanneImg,
+  reginaMathiasImg,
+  amandaImg,
+  makaylaImg,
+  edenImg,
+  sarahImg,
+  jordanImg,
+  reginaImg,
+} from "../assets/images";
+
 const groups = [
   {
     label: "Pastors",
     members: [
-      { name: "Rev. Russ Hopkins", role: "Pastor", photo: "/russ.jpg" },
+      { name: "Rev. Russ Hopkins", role: "Pastor", photo: russImg },
       {
         name: "Rev. Randolph Smith",
         role: "Care Pastor & Mens Ministry Director",
-        photo: "/randolph.jpg",
+        photo: randolphImg,
       },
     ],
   },
   {
     label: "Elders",
     members: [
-      { name: "Rev. Gary Washington", role: "Elder", photo: "/gary.jpg" },
-      { name: "Hunter Hopkins", role: "Elder", photo: "/hunter.jpg" },
+      { name: "Rev. Gary Washington", role: "Elder", photo: garyImg },
+      { name: "Hunter Hopkins", role: "Elder", photo: hunterImg },
       {
         name: "Nick Henry",
         role: "Elder / Worship Leader",
-        photo: "/nick.jpg",
+        photo: nickImg,
       },
       {
         name: "Brett Whitney",
         role: "Elder / Sunday School Director",
-        photo: "/brett.jpg",
+        photo: brettImg,
       },
     ],
   },
@@ -33,45 +57,45 @@ const groups = [
       {
         name: "Rev. Jamie Hopkins",
         role: "Womens Ministry Director",
-        photo: "/jamie.jpg",
+        photo: jamieImg,
       },
-      { name: "Kim Meek", role: "Kids Ministry Director", photo: "/kim.jpg" },
+      { name: "Kim Meek", role: "Kids Ministry Director", photo: kimImg },
       {
         name: "Colin & Marneisha Loughman",
         role: "Floodgates Kids Leaders",
-        photo: "/colin_marnesha.jpg",
+        photo: colinMarneshaImg,
       },
-      { name: "Jesus Vargas", role: "Media Ministry", photo: "/jesus.jpg" },
-      { name: "Allen McPherson", role: "Media Ministry", photo: "/allen.jpg" },
-      { name: "Gavin Todd", role: "Prayer Ministry", photo: "/gavin.jpg" },
+      { name: "Jesus Vargas", role: "Media Ministry", photo: jesusImg },
+      { name: "Allen McPherson", role: "Media Ministry", photo: allenImg },
+      { name: "Gavin Todd", role: "Prayer Ministry", photo: gavinImg },
       {
         name: "Louis & Roseanne Richardson",
         role: "Usher Ministry",
-        photo: "/lousin_roseanne.jpg",
+        photo: lousinRoseanneImg,
       },
       {
         name: "Matthias & Regina Breyer",
         role: "Events & Hospitality",
-        photo: "/regina_matthias.jpg",
+        photo: reginaMathiasImg,
       },
-      { name: "Amanda McPherson", role: "Nursery", photo: "/amanda.jpg" },
+      { name: "Amanda McPherson", role: "Nursery", photo: amandaImg },
     ],
   },
   {
     label: "Kids Ministry Leaders",
     members: [
-      { name: "Makayla Hopkins", role: "Jr Kids", photo: "/makayla.jpg" },
-      { name: "Eden Loughman", role: "Jr Kids", photo: "/eden.jpeg" },
-      { name: "Sarah Vargas", role: "Gods Girls 8–12", photo: "/sarah.jpeg" },
+      { name: "Makayla Hopkins", role: "Jr Kids", photo: makaylaImg },
+      { name: "Eden Loughman", role: "Jr Kids", photo: edenImg },
+      { name: "Sarah Vargas", role: "Gods Girls 8–12", photo: sarahImg },
       {
         name: "Jordan Hopkins",
         role: "Gods Girls 13–18",
-        photo: "/jordan.jpeg",
+        photo: jordanImg,
       },
       {
         name: "Regina Washington",
         role: "Jr Kids Sunday School",
-        photo: "/regina.jpg",
+        photo: reginaImg,
       },
     ],
   },
@@ -82,7 +106,10 @@ export default function Leadership() {
     <>
       {/* Hero */}
       <section className="about-hero">
-        <div className="about-hero-bg leadership-hero-bg" />
+        <div
+          className="about-hero-bg leadership-hero-bg"
+          style={{ backgroundImage: `url(${churchImg})` }}
+        />
         <div className="about-hero-overlay" />
         <div className="about-hero-content">
           <p className="about-hero-label">The Floodgates Church</p>

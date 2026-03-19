@@ -1,8 +1,13 @@
+import { churchImg } from "../assets/images";
+
 export default function Hero() {
   return (
     <section className="hero">
       {/* Background Image */}
-      <div className="hero-bg" />
+      <div
+        className="hero-bg"
+        style={{ backgroundImage: `url(${churchImg})` }}
+      />
 
       {/* Overlay */}
       <div className="hero-overlay" />

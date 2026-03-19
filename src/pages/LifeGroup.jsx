@@ -1,9 +1,14 @@
+import { churchImg } from "../assets/images";
+
 export default function LifeGroup() {
   return (
     <>
       {/* Hero */}
       <section className="about-hero">
-        <div className="about-hero-bg lifegroup-hero-bg" />
+        <div
+          className="about-hero-bg lifegroup-hero-bg"
+          style={{ backgroundImage: `url(${churchImg})` }}
+        />
         <div className="about-hero-overlay" />
         <div className="about-hero-content">
           <p className="about-hero-label">The Floodgates Church</p>

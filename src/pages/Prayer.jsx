@@ -1,3 +1,5 @@
+import { churchImg } from "../assets/images";
+
 export default function Prayer() {
   return (
     <>
@@ -5,7 +7,7 @@ export default function Prayer() {
         <div
           className="about-hero-bg"
           style={{
-            backgroundImage: "url('/church.jpg')",
+            backgroundImage: `url(${churchImg})`,
             backgroundPosition: "center 70%",
             filter: "saturate(0.5) brightness(0.75)",
           }}

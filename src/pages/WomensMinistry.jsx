@@ -1,3 +1,5 @@
+import { churchImg } from "../assets/images";
+
 const scriptureWeeks = [
   {
     week: "March 2–6",
@@ -56,7 +58,10 @@ export default function WomensMinistry() {
     <>
       {/* Hero */}
       <section className="about-hero">
-        <div className="about-hero-bg womens-hero-bg" />
+        <div
+          className="about-hero-bg womens-hero-bg"
+          style={{ backgroundImage: `url(${churchImg})` }}
+        />
         <div className="about-hero-overlay" />
         <div className="about-hero-content">
           <p className="about-hero-label">Ministries</p>

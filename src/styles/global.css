@@ -338,7 +338,6 @@ section {
 .hero-bg {
   position: absolute;
   inset: 0;
-  background-image: url('/church.jpg');
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
@@ -748,7 +747,6 @@ section {
 .about-hero-bg {
   position: absolute;
   inset: 0;
-  background-image: url('/church.jpg');
   background-size: cover;
   background-position: center 30%;
   background-repeat: no-repeat;
@@ -905,7 +903,6 @@ section {
    BELIEFS HERO
 ───────────────────────────────────────── */
 .beliefs-hero-bg {
-  background-image: url('/church.jpg');
   background-position: center 60%;
   filter: saturate(0.5) brightness(0.85);
 }
@@ -1031,7 +1028,6 @@ section {
    LEADERSHIP HERO
 ───────────────────────────────────────── */
 .leadership-hero-bg {
-  background-image: url('/church.jpg');
   background-position: center 40%;
   filter: saturate(0.6) brightness(0.8);
 }
@@ -1165,7 +1161,6 @@ section {
    WOMENS MINISTRY HERO
 ───────────────────────────────────────── */
 .womens-hero-bg {
-  background-image: url('/church.jpg');
   background-position: center 50%;
   filter: saturate(0.5) brightness(0.75);
 }
@@ -1340,7 +1335,6 @@ section {
    LIFE GROUP HERO
 ───────────────────────────────────────── */
 .lifegroup-hero-bg {
-  background-image: url('/church.jpg');
   background-position: center 35%;
   filter: saturate(0.5) brightness(0.75);
 }
@@ -1520,7 +1514,6 @@ section {
    GIVE HERO
 ───────────────────────────────────────── */
 .give-hero-bg {
-  background-image: url('/church.jpg');
   background-position: center 55%;
   filter: saturate(0.5) brightness(0.7);
 }

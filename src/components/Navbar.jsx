@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import { logoImg } from "../assets/images";
 
 const ministryItems = [
   { label: "Women's Ministry", href: "/ministries/womens" },
@@ -64,7 +65,7 @@ export default function Navbar() {
           style={{ display: "flex", alignItems: "center", gap: "12px" }}
         >
           <img
-            src="/logo.png"
+            src={logoImg}
             alt="The Floodgates Church"
             style={{ height: "48px", width: "auto" }}
           />

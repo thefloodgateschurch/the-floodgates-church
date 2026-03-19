@@ -1,3 +1,5 @@
+import { churchImg } from "../assets/images";
+
 export default function Give() {
   const amounts = ["25", "50", "100", "250"];
 
@@ -5,7 +7,10 @@ export default function Give() {
     <>
       {/* Hero */}
       <section className="about-hero">
-        <div className="about-hero-bg give-hero-bg" />
+        <div
+          className="about-hero-bg give-hero-bg"
+          style={{ backgroundImage: `url(${churchImg})` }}
+        />
         <div className="about-hero-overlay" />
         <div className="about-hero-content">
           <p className="about-hero-label">The Floodgates Church</p>

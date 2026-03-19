@@ -1,3 +1,5 @@
+import { churchImg } from "../assets/images";
+
 const beliefs = [
   {
     title: "The Bible",
@@ -51,7 +53,10 @@ export default function Beliefs() {
     <>
       {/* Hero */}
       <section className="about-hero beliefs-hero">
-        <div className="about-hero-bg beliefs-hero-bg" />
+        <div
+          className="about-hero-bg beliefs-hero-bg"
+          style={{ backgroundImage: `url(${churchImg})` }}
+        />
         <div className="about-hero-overlay" />
         <div className="about-hero-content">
           <p className="about-hero-label">The Floodgates Church</p>
