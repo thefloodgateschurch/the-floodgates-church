@@ -1920,9 +1920,3 @@ section {
     padding: 16px 20px 32px;
   }
 }
-```
-
-Before pushing, move the API key to an `.env` file. Create `.env` in your project root:
-```
-VITE_BIBLE_API_KEY=46BobXnlGEI9rjiQAs4BT
-VITE_BIBLE_ID=78a9f6124f344018-01
